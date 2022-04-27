@@ -1,0 +1,15 @@
+body {
+    height: 100%;
+    background: linear-gradient(180deg, #999, #222);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 90px 0 0 0;
+}
+
+.textbox {
+    background-color: aliceblue;
+    background-color: #ffffffa0;
+    border-radius: 10px;
+    padding: 12px;
+    min-width: 60vw;
+}
