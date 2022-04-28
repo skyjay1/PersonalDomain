@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Skyler James</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
@@ -15,7 +16,7 @@
     <base target="_blank" rel="noopener noreferrer">
 
     <!-- Picture and name -->
-    <div id="intro" class="d-block mx-auto mt-3 mb-3" style="max-width: max-content; min-width: min-content;">
+    <div id="intro" class="d-block mt-3 mb-3 justify-content-center container-md">
         <div class="textbox d-flex flex-wrap justify-content-center p-3">
             <img src="img/selfie-2020-jan-sq.png" class="rounded-circle mx-5" width="200px" alt="image of skyjay">
             <div class="text-center my-auto mx-3">
@@ -26,20 +27,26 @@
     </div>
 
     <!-- About Me section -->
-    <div class="d-block mx-auto mb-3" style="max-width: max-content; min-width: min-content;">
+    <div class="d-block mb-3 justify-content-center container-md">
         <div class="textbox">
             <h2>&sol;&sol; About Me</h2>
             <ul>
                 <li>Recent graduate of Weber State University with <span class="fw-bold">BaS in Computer Science</span></li>
                 <li>Hobby programmer and <span class="fw-bold">Minecraft mod developer</span></li>
             </ul>
+            <figure class="ms-3">
+                <blockquote class="blockquote">
+                  <p>&#8220;It is better to know some of the questions than all of the answers.&#8221;</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">James Thurber</figcaption>
+              </figure>
         </div>
     </div>
 
     <div id="projects" class="separator"></div>
 
     <!-- Projects section - title -->
-    <div class="d-block mx-auto" style="max-width: max-content; min-width: min-content;">
+    <div class="justify-content-center container-md">
         <div class="textbox">
             <h2>&sol;&sol; Projects</h2>
         </div>
@@ -47,9 +54,9 @@
     <!-- Projects section - cards -->
     <div id="projects-container" class="d-flex flex-wrap justify-content-evenly mx-3 mb-3">
         <!-- Minecraft Mods -->
-        <div class="card border-4 m-3" style="max-width: 18rem;">
+        <div class="card m-3 container-md">
             <a href="https://www.curseforge.com/members/skyjay1/projects">
-                <img src="img/mod.jpg" class="card-img-top" alt="Minecraft mod">
+                <img src="img/mod.jpg" class="card-img-top pt-3" alt="Minecraft mod">
             </a>
             <div class="card-body pb-1">
                 <h5 class="card-title">Minecraft mods</h5>
@@ -69,9 +76,9 @@
             </ul>
         </div>
         <!-- Foodpocalypse -->
-        <div class="card border-4 m-3" style="max-width: 18rem;">
+        <div class="card m-3 container-md">
             <a href="https://thunderbeast.studio">
-                <img src="img/foodpocalypse.jpg" class="card-img-top" alt="foodpocalypse">
+                <img src="img/foodpocalypse.jpg" class="card-img-top pt-3" alt="foodpocalypse">
             </a>
             <div class="card-body pb-1">
                 <h5 class="card-title">Foodpocalypse</h5>
@@ -88,8 +95,8 @@
             </ul>
         </div>
         <!-- Space Facts -->
-        <div class="card border-4 m-3" style="max-width: 18rem;">
-            <img src="img/space.jpg" class="card-img-top" alt="foodpocalypse">
+        <div class="card m-3 container-md">
+            <img src="img/space.jpg" type="button" class="card-img-top pt-3" data-bs-toggle="modal" data-bs-target="#spacefactsmodal" alt="foodpocalypse">
             <div class="card-body pb-1">
                 <h5 class="card-title">Space Facts App</h5>
                 <p class="card-text mb-0">Android app for daily Space info and pics. Uses REST APIs and Firebase. <span class="text-secondary">(Unpublished)</span></p>
@@ -107,9 +114,9 @@
             </ul>
         </div>
         <!-- Mod usability -->
-        <div class="card border-4 m-3" style="max-width: 18rem;">
+        <div class="card m-3">
             <a href="files/report.pdf">
-                <img src="img/usabilitytest.png" class="card-img-top" alt="Usability test">
+                <img src="img/usabilitytest.png" class="card-img-top pt-3" alt="Usability test">
             </a>
             <div class="card-body pb-1">
                 <h5 class="card-title">Mod Usability Study</h5>
@@ -125,13 +132,13 @@
             </ul>
         </div>
         <!-- SimplyCoding -->
-        <div class="card border-4 m-3" style="max-width: 18rem;">
+        <div class="card m-3">
             <a href="https://simplycoding.org/">
-                <img src="img/simplycoding.jpg" class="card-img-top" alt="Simply Coding">
+                <img src="img/simplycoding.jpg" class="card-img-top pt-3" alt="Simply Coding">
             </a>
             <div class="card-body pb-1">
                 <h5 class="card-title">SimplyCoding.org</h5>
-                <p class="card-text mb-0">Instructor for SimplyCoding.org<br/>Taught JavaScript and Minecraft Mods to children ages 9-15.</p>
+                <p class="card-text mb-0">Instructor at SimplyCoding.<br/>Taught JavaScript and Minecraft Mods to children ages 9-15.</p>
             </div>
             <a href="https://simplycoding.org/" class="btn btn-primary align-self-end mx-3"
                 style="max-width: min-content;">More...</a>
@@ -192,7 +199,7 @@
     <div id="contact" class="separator"></div>
 
     <!-- Contact section -->
-    <div class="d-block mx-auto mb-3" style="max-width: max-content; min-width: min-content;">
+    <div class="d-block mb-3 justify-content-center container-md">
         <div class="textbox">
             <h2>&sol;&sol; Contact Me</h2>
             <ul class="d-flex flex-wrap justify-content-evenly px-0 mt-1 mb-1" style="list-style: none;">
