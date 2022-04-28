@@ -1,6 +1,7 @@
 body {
     height: 100%;
-    background: linear-gradient(180deg, #999, #222);
+    background: mediumpurple;
+    background: linear-gradient(180deg, #a6dff8, #3d1f5c);
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 90px 0 0 0;
@@ -12,4 +13,8 @@ body {
     border-radius: 10px;
     padding: 12px;
     min-width: 60vw;
+}
+
+.separator {
+    height: 75px;
 }

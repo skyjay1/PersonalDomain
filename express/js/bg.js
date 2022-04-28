@@ -93,13 +93,17 @@ let updateBackground = function (cvs, ctx) {
 
 let updateCanvasSize = function (cvs) {
     cvs.width = window.innerWidth;
-    cvs.height = window.innerHeight - 50;
+    cvs.height = window.innerHeight - cvs.offsetTop;
 }
 
 // stop the current interval
 let resetInterval = function () {
     clearInterval(intervalVar)
     ctx.restore()
+}
+
+let toggleAnimation = function() {
+    animated = !animated
 }
 
 let loadCanvas = function () {

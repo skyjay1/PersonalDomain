@@ -11,6 +11,10 @@
     <script src="js/header.js"></script>
     <script src="js/bg.js"></script>
 
+    <!-- Ensures all links open in new tab -->
+    <base target="_blank" rel="noopener noreferrer">
+
+    <!-- Picture and name -->
     <div id="intro" class="d-block mx-auto mt-3 mb-3" style="max-width: max-content; min-width: min-content;">
         <div class="textbox d-flex flex-wrap justify-content-center p-3">
             <img src="img/selfie-2020-jan-sq.png" class="rounded-circle mx-5" width="200px" alt="image of skyjay">
@@ -21,39 +25,176 @@
         </div>
     </div>
 
-    <div id="bio" class="d-block mx-auto mb-3" style="max-width: max-content; min-width: min-content;">
+    <!-- About Me section -->
+    <div class="d-block mx-auto mb-3" style="max-width: max-content; min-width: min-content;">
         <div class="textbox">
-            <h2>About Me</h2>
+            <h2>&sol;&sol; About Me</h2>
+            <ul>
+                <li>Recent graduate of Weber State University with <span class="fw-bold">BaS in Computer Science</span></li>
+                <li>Hobby programmer and <span class="fw-bold">Minecraft mod developer</span></li>
+            </ul>
         </div>
     </div>
 
-    <div id="projects" class="d-block mx-auto mb-3" style="max-width: max-content; min-width: min-content;">
+    <div id="projects" class="separator"></div>
+
+    <!-- Projects section - title -->
+    <div class="d-block mx-auto" style="max-width: max-content; min-width: min-content;">
         <div class="textbox">
-            <h2>Projects</h2>
+            <h2>&sol;&sol; Projects</h2>
         </div>
     </div>
-
-    <div id="projects-container" class="d-flex flex-wrap mx-3 mb-3">
-        <div class="card border-4" style="width: 18rem;">
-            <a href="https://thunderbeast.studio" class="stretched-link"></a>
-            <img src="img/foodpocalypse.jpg" class="card-img-top" alt="foodpocalypse">
+    <!-- Projects section - cards -->
+    <div id="projects-container" class="d-flex flex-wrap justify-content-evenly mx-3 mb-3">
+        <!-- Minecraft Mods -->
+        <div class="card border-4 m-3" style="max-width: 18rem;">
+            <a href="https://www.curseforge.com/members/skyjay1/projects">
+                <img src="img/mod.jpg" class="card-img-top" alt="Minecraft mod">
+            </a>
             <div class="card-body pb-1">
-              <h5 class="card-title">Foodpocalypse</h5>
-              <p class="card-text">Unity game created with <a href="#">Thunderbeast.Studio</a>. Features Firebase user management and cloud storage.</p>
+                <h5 class="card-title">Minecraft mods</h5>
+                <p class="card-text mb-0">Author of several popular Minecraft mods, since 2015.</p>
+                <ul class="card-text mb-0">
+                    <li>Author page: <a href="https://www.curseforge.com/members/skyjay1/projects">CurseForge</a></li>
+                    <li>Source code: <a href="https://github.com/skyjay1">GitHub</a></li>
+                </ul>
             </div>
-            <span class="btn btn-primary align-self-end mx-3" style="max-width: min-content;">More...</span>
-            <ul class="d-flex flex-wrap justify-content-evenly px-0 mt-1 mb-1 text-secondary fst-italic" style="list-style: none;">
+            <a href="https://www.curseforge.com/members/skyjay1/projects" class="btn btn-primary align-self-end mx-3"
+                style="max-width: min-content;">More...</a>
+            <ul class="d-flex flex-wrap justify-content-evenly px-0 mt-1 mb-1 text-secondary fst-italic"
+                style="list-style: none;">
+                <li>Minecraft</li>
+                <li>Java</li>
+                <li>Forge</li>
+            </ul>
+        </div>
+        <!-- Foodpocalypse -->
+        <div class="card border-4 m-3" style="max-width: 18rem;">
+            <a href="https://thunderbeast.studio">
+                <img src="img/foodpocalypse.jpg" class="card-img-top" alt="foodpocalypse">
+            </a>
+            <div class="card-body pb-1">
+                <h5 class="card-title">Foodpocalypse</h5>
+                <p class="card-text mb-0">Unity game created with <a href="https://thunderbeast.studio">Thunderbeast.Studio</a>. Includes Firebase cloud storage.</p>
+            </div>
+            <a href="https://thunderbeast.studio" class="btn btn-primary align-self-end mx-3"
+                style="max-width: min-content;">More...</a>
+            <ul class="d-flex flex-wrap justify-content-evenly px-0 mt-1 mb-1 text-secondary fst-italic"
+                style="list-style: none;">
                 <li>C#</li>
                 <li>Unity</li>
                 <li>3D</li>
                 <li>Firebase</li>
             </ul>
-          </div>
+        </div>
+        <!-- Space Facts -->
+        <div class="card border-4 m-3" style="max-width: 18rem;">
+            <img src="img/space.jpg" class="card-img-top" alt="foodpocalypse">
+            <div class="card-body pb-1">
+                <h5 class="card-title">Space Facts App</h5>
+                <p class="card-text mb-0">Android app for daily Space info and pics. Uses REST APIs and Firebase. <span class="text-secondary">(Unpublished)</span></p>
+            </div>
+            <button type="button" class="btn btn-primary align-self-end mx-3"
+            style="max-width: min-content;" data-bs-toggle="modal" data-bs-target="#spacefactsmodal">
+                More...
+            </button>
+            <ul class="d-flex flex-wrap justify-content-evenly px-0 mt-1 mb-1 text-secondary fst-italic"
+                style="list-style: none;">
+                <li>Android</li>
+                <li>Firebase</li>
+                <li>Java</li>
+                <li>REST</li>
+            </ul>
+        </div>
+        <!-- Mod usability -->
+        <div class="card border-4 m-3" style="max-width: 18rem;">
+            <a href="files/report.pdf">
+                <img src="img/usabilitytest.png" class="card-img-top" alt="Usability test">
+            </a>
+            <div class="card-body pb-1">
+                <h5 class="card-title">Mod Usability Study</h5>
+                <p class="card-text mb-0">Research project about how Minecraft players use mods.</p>
+            </div>
+            <a href="files/report.pdf" class="btn btn-primary align-self-end mx-3"
+                style="max-width: min-content;">More...</a>
+            <ul class="d-flex flex-wrap justify-content-evenly px-0 mt-1 mb-1 text-secondary fst-italic"
+                style="list-style: none;">
+                <li>HCI</li>
+                <li>UX</li>
+                <li>Minecraft</li>
+            </ul>
+        </div>
+        <!-- SimplyCoding -->
+        <div class="card border-4 m-3" style="max-width: 18rem;">
+            <a href="https://simplycoding.org/">
+                <img src="img/simplycoding.jpg" class="card-img-top" alt="Simply Coding">
+            </a>
+            <div class="card-body pb-1">
+                <h5 class="card-title">SimplyCoding.org</h5>
+                <p class="card-text mb-0">Instructor for SimplyCoding.org<br/>Taught JavaScript and Minecraft Mods to children ages 9-15.</p>
+            </div>
+            <a href="https://simplycoding.org/" class="btn btn-primary align-self-end mx-3"
+                style="max-width: min-content;">More...</a>
+            <ul class="d-flex flex-wrap justify-content-evenly px-0 mt-1 mb-1 text-secondary fst-italic"
+                style="list-style: none;">
+                <li>JavaScript</li>
+                <li>JS</li>
+                <li>Java</li>
+                <li>Minecraft</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Modals -->
+    <div class="modal fade" id="spacefactsmodal" tabindex="-1" role="dialog" aria-labelledby="spacefactsmodaltitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="spacefactsmodaltitle">Space Facts App</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>"Space Facts" is an (unpublished) Android app created for a university course. It relies on RESTful APIs to retrieve space-related pictures and information. The app uses Firebase to manage user accounts and a realtime database.</p>
+                    <h3 class="mb-0">Screenshots</h3>
+                    <!-- Screenshot carousel -->
+                    <div id="spacefactscarousel" style="max-width: 480px;" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/spacefacts3.png" class="d-block w-100" alt="Astronomy Picture of the Day">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/spacefacts2.png" class="d-block w-100" alt="Navigation UI">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/spacefacts6.png" class="d-block w-100" alt="Search UI">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/spacefacts4.png" class="d-block w-100" alt="Space Body UI">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#spacefactscarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#spacefactscarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id="contact" class="d-block mx-auto mb-3" style="max-width: max-content; min-width: min-content;">
+    <div id="contact" class="separator"></div>
+
+    <!-- Contact section -->
+    <div class="d-block mx-auto mb-3" style="max-width: max-content; min-width: min-content;">
         <div class="textbox">
-            <h2>Contact Me</h2>
+            <h2>&sol;&sol; Contact Me</h2>
             <ul class="d-flex flex-wrap justify-content-evenly px-0 mt-1 mb-1" style="list-style: none;">
                 <li><a href="https://www.linkedin.com/in/skyler-james-60512a232/"><img src="img/linkedin.png"></a></li>
                 <li><a href="https://github.com/skyjay1"><img src="img/github.png"></a></li>
@@ -62,12 +203,12 @@
             </ul>
         </div>
     </div>
-    
-    
+
     <canvas id="bg" style="z-index: -1; position: fixed; left: 0; top: 50px;"></canvas>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+    <script src="js/footer.js"></script>
 </body>
 
 </html>
