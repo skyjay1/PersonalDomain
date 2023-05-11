@@ -27,6 +27,10 @@ body {
     height: 75px;
 }
 
+.gallery-img {
+    object-fit: cover;
+}
+
 @media (min-width: 576px) {
     .card {
         max-width: 18rem;

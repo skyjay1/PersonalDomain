@@ -14,15 +14,19 @@ document.write(`
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#intro" target="_self">About Me</a>
+                        <a class="nav-link" aria-current="page" href="index.html#intro" target="_self">About Me</a>
                     </li>
                     <li class="navbar-text d-none d-sm-block">&bullet;</li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects" target="_self">Projects</a>
+                        <a class="nav-link" href="index.html#projects" target="_self">Projects</a>
                     </li>
                     <li class="navbar-text d-none d-sm-block">&bullet;</li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact" target="_self">Contact Me</a>
+                        <a class="nav-link" href="index.html#contact" target="_self">Contact Me</a>
+                    </li>
+                    <li class="navbar-text d-none d-sm-block">&bullet;</li>
+                    <li class="nav-item">
+                        <a class="nav-link align-self-end" href="gallery.html" target="_self">Gallery</a>
                     </li>
                 </ul>
             </div>

@@ -1,0 +1,302 @@
+{
+    "art": [
+        {
+            "name": "Aurora",
+            "description": "Based on a Scandinavian story wherein auroras are produced by fire foxes running in the sky",
+            "image": "digital-art/aurora-fox.png"
+        },
+        {
+            "name": "Blue Moon",
+            "description": "Simple piece that relies on the visual contrast between a wolf and the moon it so adores",
+            "image": "digital-art/blue-moon.png"
+        },
+        {
+            "name": "Ship in the Clouds",
+            "description": "Eerie depiction of a lost ship, drifting amongst the clouds",
+            "image": "digital-art/ship-in-the-clouds.png"
+        }
+    ],    
+    "jewelry": [
+        {
+            "name": "Amber Necklace",
+            "circumference": 40.0,
+            "cord": "stretch",
+            "description": "Wire wrapped amber chunk with wooden beads",
+            "image": "jewelry/amber.jpg",
+            "image_blowup": "jewelry/amber-blowup.jpg"
+        },
+        {
+            "name": "Amethyst Point Necklace",
+            "circumference": 41.0,
+            "cord": "thread",
+            "description": "Simple crystal point with wood, amethyst, and lava stone beads",
+            "image": "jewelry/amethyst-point-and-lava-stone.jpg",
+            "image_blowup": "jewelry/amethyst-point-and-lava-stone-blowup.jpg"
+        },
+        {
+            "name": "Ammonite Necklace (1)",
+            "circumference": 38.0,
+            "cord": "stretch",
+            "description": "Fossilized ammonite with dalmation jasper and wooden beads",
+            "image": "jewelry/ammonite-and-dalmation-jasper.jpg",
+            "image_blowup": "jewelry/ammonite-and-dalmation-jasper-blowup.jpg"
+        },
+        {
+            "name": "Ammonite Necklace (2)",
+            "circumference": 40.0,
+            "cord": "thread",
+            "description": "Wire wrapped ammonite with wood and stone beads",
+            "image": "jewelry/ammonite-and-wood.jpg",
+            "image_blowup": "jewelry/ammonite-and-wood-blowup.jpg"
+        },
+        {
+            "name": "Ammonite Necklace (3)",
+            "circumference": 40.0,
+            "cord": "leather",
+            "description": "Fossilized ammonite and opalized shell with minimal accents",
+            "image": "jewelry/ammonite-on-leather.jpg",
+            "image_blowup": "jewelry/ammonite-on-leather-blowup.jpg"
+        },
+        {
+            "name": "Arizona Jasper Necklace",
+            "circumference": 46.0,
+            "cord": "stretch",
+            "description": "Wire wrapped arizona jasper with wood beads and accents",
+            "image": "jewelry/arizona-jasper.jpg",
+            "image_blowup": "jewelry/arizona-jasper-blowup.jpg"
+        },
+        {
+            "name": "Aventurine Choker",
+            "circumference": 40.0,
+            "cord": "stretch",
+            "description": "Simple aventurine tubes and beads, designed to fit snugly around the neck",
+            "image": "jewelry/aventurine-choker.jpg",
+            "image_blowup": "jewelry/aventurine-choker-blowup.jpg"
+        },
+        {
+            "name": "Black Onyx Necklace",
+            "circumference": 41.0,
+            "cord": "thread",
+            "description": "Black onyx point with small hand-threaded beads",
+            "image": "jewelry/black-onyx.jpg",
+            "image_blowup": "jewelry/black-onyx-blowup.jpg"
+        },
+        {
+            "name": "Blue Tigers Eye Necklace",
+            "circumference": 43.0,
+            "cord": "stretch",
+            "description": "Polished piece of blue tigers eye with simple beads",
+            "image": "jewelry/blue-tigers-eye.jpg",
+            "image_blowup": "jewelry/blue-tigers-eye-blowup.jpg"
+        },
+        {
+            "name": "Celtic Sun Necklace",
+            "circumference": 45.0,
+            "cord": "thread",
+            "description": "Intricate Celtic-inspired pendant with textured wooden beads",
+            "image": "jewelry/celtic-sun.jpg",
+            "image_blowup": "jewelry/celtic-sun-blowup.jpg"
+        },
+        {
+            "name": "Citrine Necklace",
+            "circumference": 43.0,
+            "cord": "cord",
+            "description": "Raw chunk of citrine quartz with wooden beads and decorative cord",
+            "image": "jewelry/citrine.jpg",
+            "image_blowup": "jewelry/citrine-blowup.jpg"
+        },
+        {
+            "name": "Dalmation Jasper Necklace",
+            "circumference": 41.0,
+            "cord": "thread",
+            "description": "Large dalmation jasper pendant with glass beads and black jasper tubes",
+            "image": "jewelry/dalmation-jasper.jpg",
+            "image_blowup": "jewelry/dalmation-jasper-blowup.jpg"
+        },
+        {
+            "name": "Dark Arrowhead Necklace",
+            "circumference": 44.0,
+            "cord": "leather",
+            "description": "Hand-wrapped and hand-chiseled arrowhead",
+            "image": "jewelry/dark-leather-arrowhead.jpg",
+            "image_blowup": "jewelry/dark-leather-arrowhead-blowup.jpg"
+        },
+        {
+            "name": "Dragons Blood Jasper Necklace",
+            "circumference": 41.0,
+            "cord": "stretch",
+            "description": "Dark stone pendant with alternating mother-of-pearl and hematite beads",
+            "image": "jewelry/dragons-blood-jasper.jpg",
+            "image_blowup": "jewelry/dragons-blood-jasper-blowup.jpg"
+        },
+        {
+            "name": "Dragons Scale Jasper Necklace",
+            "circumference": 42.0,
+            "cord": "chain",
+            "description": "Heat-treated jasper on a simple metal chain",
+            "image": "jewelry/dragons-scale-jasper.jpg",
+            "image_blowup": "jewelry/dragons-scale-jasper-blowup.jpg"
+        },
+        {
+            "name": "Granite Necklace",
+            "circumference": 41.0,
+            "cord": "stretch",
+            "description": "Fascinating granite piece with a variety of beads",
+            "image": "jewelry/granite.jpg",
+            "image_blowup": "jewelry/granite-blowup.jpg"
+        },
+        {
+            "name": "Green Glass Necklace",
+            "circumference": 44.0,
+            "cord": "thread",
+            "description": "Glass metal-backed pendant with small glass beads",
+            "image": "jewelry/green-glass.jpg",
+            "image_blowup": "jewelry/green-glass-blowup.jpg"
+        },
+        {
+            "name": "Green Zebra Jasper Necklace",
+            "circumference": 44.0,
+            "cord": "cord",
+            "description": "Carved medicine-stone-style zebra jasper with minimal accents",
+            "hidden": true,
+            "image": "jewelry/green-zebra-jasper.jpg",
+            "image_blowup": "jewelry/green-zebra-jasper-blowup.jpg"
+        },
+        {
+            "name": "Hematite Turtle Necklace",
+            "circumference": 40.0,
+            "cord": "stretch",
+            "description": "Hematite pendant in the shape of a turtle with simple hematite beads",
+            "image": "jewelry/hematite-turtle.jpg",
+            "image_blowup": "jewelry/hematite-turtle-blowup.jpg"
+        },
+        {
+            "name": "Lapis Lazuli Choker",
+            "circumference": 40.0,
+            "cord": "stretch",
+            "description": "Alternating beads and tubes made from lapis lazuli (and one lava stone bead due to frequent repairs)",
+            "image": "jewelry/lapis-lazuli-choker.jpg",
+            "image_blowup": "jewelry/lapis-lazuli-choker-blowup.jpg"
+        },
+        {
+            "name": "Malachite Necklace",
+            "circumference": 41.0,
+            "cord": "cord",
+            "description": "Simple malachite point on a plain cord",
+            "hidden": true,
+            "image": "jewelry/malachite-on-cord.jpg",
+            "image_blowup": "jewelry/malachite-on-cord-blowup.jpg"
+        },
+        {
+            "name": "Metal Scales and Malachite Choker",
+            "circumference": 39.0,
+            "cord": "stretch",
+            "description": "Patterned metal tubes and malachite beads",
+            "image": "jewelry/metal-tubes-and-malachite.jpg",
+            "image_blowup": "jewelry/metal-tubes-and-malachite-blowup.jpg"
+        },
+        {
+            "name": "Minnesota Agate Necklace",
+            "circumference": 42.0,
+            "cord": "stretch",
+            "description": "Hand-wrapped piece of Minnesota agate with assorted jasper beads",
+            "image": "jewelry/minnesota-agate.jpg",
+            "image_blowup": "jewelry/minnesota-agate-blowup.jpg"
+        },
+        {
+            "name": "Obsidian Necklace",
+            "circumference": 39.0,
+            "cord": "stretch",
+            "description": "Interesting chunk of black obsidian with subtly colored beads",
+            "image": "jewelry/obsidian.jpg",
+            "image_blowup": "jewelry/obsidian-blowup.jpg"
+        },
+        {
+            "name": "Ocean Waves Necklace",
+            "circumference": 43.0,
+            "cord": "thread",
+            "description": "Eye-catching blue pendant with a variety of blue and turquoise beads",
+            "image": "jewelry/ocean-waves.jpg",
+            "image_blowup": "jewelry/ocean-waves-blowup.jpg"
+        },
+        {
+            "name": "Pyritized Ammonite Necklace",
+            "circumference": 42.0,
+            "cord": "chain",
+            "description": "Small Jurassic-period ammonite on a brass chain",
+            "image": "jewelry/pyritized-ammonite.jpg",
+            "image_blowup": "jewelry/pyritized-ammonite-blowup.jpg"
+        },
+        {
+            "name": "Quartz Necklace (1)",
+            "circumference": 38.0,
+            "cord": "cord",
+            "description": "Simple quartz crystal on a braided decorative cord",
+            "image": "jewelry/quartz-and-braid.jpg",
+            "image_blowup": "jewelry/quartz-and-braid-blowup.jpg"
+        },
+        {
+            "name": "Quartz Necklace (2)",
+            "circumference": 40.0,
+            "cord": "stretch",
+            "description": "Quartz crystal with freshwater pearls and plastic accents",
+            "image": "jewelry/quartz-and-pearls.jpg",
+            "image_blowup": "jewelry/quartz-and-pearls-blowup.jpg"
+        },
+        {
+            "name": "Ruby-in-Zoisite Necklace",
+            "circumference": 41.0,
+            "description": "Hematite beads with a ruby-in-zoisite pendant and mixed material accents",
+            "image": "jewelry/ruby-in-zoisite.jpg",
+            "image_blowup": "jewelry/ruby-in-zoisite-blowup.jpg"
+        },
+        {
+            "name": "Shark Tooth Necklace (1)",
+            "circumference": 44.0,
+            "cord": "thread",
+            "description": "Shark tooth in resin with wooden beads",
+            "image": "jewelry/shark-tooth-in-resin.jpg",
+            "image_blowup": "jewelry/shark-tooth-in-resin-blowup.jpg"
+        },
+        {
+            "name": "Snowflake Obsidian Necklace",
+            "circumference": 43.0,
+            "cord": "thread",
+            "description": "Snowflake obsidian disc with hematite beads",
+            "image": "jewelry/snowflake-obsidian.jpg",
+            "image_blowup": "jewelry/snowflake-obsidian-blowup.jpg"
+        },
+        {
+            "name": "Spiral Shell Necklace",
+            "circumference": 43.0,
+            "cord": "thread",
+            "description": "Fascinating shell piece in the shape of a heart with flat shell beads",
+            "image": "jewelry/spiral-shell.jpg",
+            "image_blowup": "jewelry/spiral-shell-blowup.jpg"
+        },
+        {
+            "name": "Tumbled Amethyst Necklace",
+            "circumference": 42.0,
+            "cord": "stretch",
+            "description": "Polished amethyst chunk with small stone beads",
+            "image": "jewelry/tumbled-amethyst.jpg",
+            "image_blowup": "jewelry/tumbled-amethyst-blowup.jpg"
+        },
+        {
+            "name": "Turquoise and Seed Necklace",
+            "circumference": 39.0,
+            "cord": "thread",
+            "description": "Glass pendant with dyed seeds, using turquoise and unakite beads",
+            "image": "jewelry/turquoise-and-seeds.jpg",
+            "image_blowup": "jewelry/turquoise-and-seeds-blowup.jpg"
+        },
+        {
+            "name": "Turqoise Arrowhead Necklace",
+            "circumference": 40.0,
+            "cord": "stretch",
+            "description": "Metal arrowhead-style pendant with simple beads and turquoise accents",
+            "image": "jewelry/turquoise-arrowhead.jpg",
+            "image_blowup": "jewelry/turquoise-arrowhead-blowup.jpg"
+        }
+    ]
+}

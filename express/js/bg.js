@@ -1,7 +1,7 @@
 /* Milliseconds between simulation updates (tied to render updates) */
 const INTERVAL = 40
 /* Point color */
-const COLOR = "white"
+const COLOR = 'white'
 /* Ratio of empty pixels to Points */
 const COUNT_RATIO = 27000
 /* Minimum number of Points */
@@ -60,7 +60,7 @@ class Point {
             if(distsq < this.mindistsq) {
                 // draw a line connecting the points
                 a = 1.0 - distsq / this.mindistsq
-                ctx.strokeStyle = "rgba(255,255,255," + a + ")";
+                ctx.strokeStyle = 'rgba(255,255,255,' + a + ')';
                 ctx.beginPath()
                 ctx.moveTo(this.x, this.y)
                 ctx.lineTo(px, py)
@@ -108,14 +108,14 @@ let toggleAnimation = function() {
 
 let loadCanvas = function () {
     // attempt to load a screensaver
-    let cvs = document.querySelector("canvas#bg")
+    let cvs = document.querySelector('canvas#bg')
     if (cvs != null) {
         console.log('Loading animated canvas')
         console.log('Animation enabled: ' + animated)
         updateCanvasSize(cvs)
         // if this screen has a painter, load and register interval
-        if (cvs.getContext("2d")) {
-            let ctx = cvs.getContext("2d")
+        if (cvs.getContext('2d')) {
+            let ctx = cvs.getContext('2d')
             ctx.save()
             // initialize background
             initBackground(cvs, ctx);

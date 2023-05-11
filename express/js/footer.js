@@ -7,7 +7,7 @@ document.write(`
     <label class="form-check-label text-light" for="flexSwitchCheckChecked">Animated background</label>
   </div>
   <p class="text-center text-light">
-    &copy; 2022 Skyler James
+    &copy; 2023 Skyler James
   </p>
 </footer>
 `)
